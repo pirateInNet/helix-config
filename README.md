@@ -32,11 +32,13 @@ git clone https://github.com/pirateInNet/helix-config.git ~/.config/helix
 ***
 
 🤝 Contributing
+
 Feel free to fork this and customize it to your liking. If you have cool ideas, PRs are welcome!
 
 ***
 
 📜 License
+
 This configuration is released under the MIT License.
 
 ***

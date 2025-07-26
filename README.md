@@ -39,7 +39,7 @@ Feel free to fork this and customize it to your liking. If you have cool ideas, 
 
 📜 License
 
-This configuration is released under the MIT License.
+This is licensed under the [MIT License](LICENSE).
 
 ***
 ![GitHub stars](https://img.shields.io/github/stars/pirateInNet/helix-config?style=flat-square)

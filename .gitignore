@@ -1,0 +1,20 @@
+# Ignore backup files, logs, and system junk
+*.swp
+*.swo
+*.bak
+*.log
+*.tmp
+*~
+
+# Ignore compiled or temporary files
+target/
+build/
+dist/
+
+# macOS & Linux specific junk
+.DS_Store
+.Trashes
+__MACOSX
+.cache
+.history
+

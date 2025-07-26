@@ -1,0 +1,49 @@
+#theme = "gruvbox"
+theme = "kanagawa"
+#theme = "catppuccin_mocha"
+#theme = "everforest_dark"
+#theme = "rose_pine"
+#theme = "yo"
+#theme = "yo_dark"
+#theme = "yo_sand"
+#theme = "yo_sand_dark"
+#theme = "yo_berry"
+#theme = "yo_berry_dark"
+#theme = "vintage"
+
+[editor]
+color-modes = true
+auto-pairs = true
+shell = ["bash", "fish"]
+mouse = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name","version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "You are writing magic"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.whitespace]
+render = "all"
+space = "boundary"      # only show spaces at start/end of lines
+tab = "all"             # always show tabs
+nbsp = "boundary"       # highlight non-breaking spaces only at line edges
+nnbsp = "none"          # narrow non-breaking space is rare; can ignore
+newline = "boundary"        # avoids visual clutter
+
+[editor.whitespace.characters]
+space = "·"             # Middle dot for normal spaces
+nbsp = "⍽"              # Open box for non-breaking space
+nnbsp = "␣"             # Blank symbol for narrow NBSP
+tab = "→"               # Arrow for tab start
+newline = "☠"           # Newline symbol (not shown unless enabled)
+tabpad = "·"            # Use middle dots for tab fill

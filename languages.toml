@@ -1,0 +1,84 @@
+# Rust ---------------------------
+[[language]]
+name = "rust"
+file-types = ["rs"]
+scope = "source.rs"
+auto-format = true
+formatter = { command = "rustfmt" }
+# to turn OFF rust-analyzer
+#language-servers = []
+# to turn ON rust-analyzer
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+# --------------------------------
+
+
+
+
+
+# C ------------------------------
+[[language]]
+name = "C"
+file-types = ["c", "h"]
+scope = "source.c"
+auto-format = true
+formatter = { command = "clang-format" }
+# to turn OFF C lsp
+language-servers = []
+# ro turn ON C lsp
+# [language-server.clangd]
+# command = "clangd"
+# --------------------------------
+
+
+
+
+
+# C++ ----------------------------
+[[language]]
+name = "Cpp"
+file-types = ["cpp", "hpp"]
+scope = "source.cpp"
+auto-format = true
+formatter = { command = "clang-format" }
+# to turn OFF C++ lsp
+language-servers = []
+# ro turn ON C++ lsp
+# [language-server.clangd]
+# command = "clangd"
+# --------------------------------
+
+
+
+
+
+# HTML & CSS & JS ----------------
+[[language]]
+name = "html"
+file-types = ["html", "htm"]
+scope = "source.html"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "html"] }
+[language-server.html]
+command = "vscode-html-languageserver"
+args = ["--stdio"]
+
+[[language]]
+name = "CSS"
+file-types = ["css"]
+scope = "source.css"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "css"] }
+[language-server.css]
+command = "vscode-css-languageserver"
+args = ["--stdio"]
+
+[[language]]
+name = "JavaScript"
+file-types = ["js", "javascript"]
+scope = "source.js"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "babel"] }
+[language-server.javascript]
+command = "javascript-typescript-stdio"
+# --------------------------------

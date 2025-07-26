@@ -40,7 +40,3 @@ Feel free to fork this and customize it to your liking. If you have cool ideas, 
 📜 License
 
 This is licensed under the [MIT License](LICENSE).
-
-***
-![GitHub stars](https://img.shields.io/github/stars/pirateInNet/helix-config?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/pirateInNet/helix-config?style=flat-square)
